@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a4c80c9-1573-4858-8383-b3f600ffe028" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XJ0eThaPnqCMpNUT5N9MRnU9EU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hello" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Hello" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a4c80c9-1573-4858-8383-b3f600ffe028" name="Default Changelist" comment="" />
+      <created>1580748988823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580748988823</updated>
+      <workItem from="1580748997120" duration="1779000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580749427766">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="254" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.870@0.0.1600.870" timestamp="1580749427766" />
+    <state width="1557" height="226" key="GridCell.Tab.0.bottom" timestamp="1580749613266">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1557" height="226" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1580749613266" />
+    <state width="1557" height="226" key="GridCell.Tab.0.center" timestamp="1580749613266">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1557" height="226" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1580749613266" />
+    <state width="1557" height="226" key="GridCell.Tab.0.left" timestamp="1580749613266">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1557" height="226" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1580749613266" />
+    <state width="1557" height="226" key="GridCell.Tab.0.right" timestamp="1580749613266">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1557" height="226" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1580749613266" />
+    <state x="501" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1580749050560">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="501" y="260" key="com.intellij.ide.util.TipDialog/0.0.1600.870@0.0.1600.870" timestamp="1580749050560" />
+    <state x="496" y="33" width="607" height="804" key="find.popup" timestamp="1580749131179">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="496" y="33" width="607" height="804" key="find.popup/0.0.1600.870@0.0.1600.870" timestamp="1580749131179" />
+  </component>
+</project>

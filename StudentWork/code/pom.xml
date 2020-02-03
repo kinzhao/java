@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>TT2105</groupId>
+    <artifactId>solution-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <name>Core Java 8 Programming</name>
+
+    <modules>
+        <module>SimpleClass/solution-code</module>
+        <module>Methods/solution-code</module>
+        <module>Looping/solution-code</module>
+        <module>Strings/solution-code</module>
+        <module>StringBuilders/solution-code</module>
+        <module>SubClasses/solution-code</module>
+        <module>FieldTest/solution-code</module>
+        <module>Array/solution-code</module>
+        <module>Polymorphism/solution-code</module>
+        <module>Interfaces/solution-code</module>
+        <module>Exceptions/solution-code</module>
+        <module>PrimitiveWrappers/solution-code</module>
+        <module>Enumerations/solution-code</module>
+        <module>Annotations/solution-code</module>
+        <module>HashMap/solution-code</module>
+        <module>Collections/solution-code</module>
+        <module>WritingCollection/solution-code</module>
+        <module>FunctionalCollection/solution-code</module>
+        <module>Streams/solution-code</module>
+        <module>Collecting/solution-code</module>
+        <module>Agenda/solution-code</module>
+        <module>TableData/solution-code</module>
+        <module>RowSets/solution-code</module>
+        <module>Transactions/solution-code</module>
+    </modules>
+</project>

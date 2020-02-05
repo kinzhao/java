@@ -18,7 +18,7 @@ package trivera.core.employee;
  */
 
 
-public class Employee extends Person {
+public class Employee extends Person implements Payable{
     private int empID;
 
     private Employee manager;

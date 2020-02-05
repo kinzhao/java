@@ -20,9 +20,9 @@ package trivera.core.employee;
 
 public class TestPayment {
 
-    public static void PayEveryone(Employee... emps) {
+    public static void PayEveryone(Payable... emps) {
         double total = 0;
-        for(Employee emp: emps) {
+        for(Payable emp: emps) {
             total += emp.calcSalary();
         }
         System.out.println("Paid a total of $" + total);
@@ -34,7 +34,12 @@ public class TestPayment {
         HourlyEmployee h1 = new HourlyEmployee("BamBam", 103);
         h1.setHourRate(10);
         h1.setHoursWorked(40);
-        PayEveryone(el, e2, h1);
+
+        SalesEmployee s1 = new SalesEmployee("Who Me", 104);
+        s1.setCommissionRate(10);
+        s1.setSalesAmount(4000);
+        PayEveryone(el, e2, h1, s1, new Vendor());
+
 
         SalesEmployee jennifer = null;
         HourlyEmployee john = null;

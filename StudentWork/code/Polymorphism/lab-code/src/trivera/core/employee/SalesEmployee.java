@@ -18,7 +18,7 @@ package trivera.core.employee;
  */
 
 
-public class SalesEmployee {
+public class SalesEmployee extends Employee{
     // Instance fields
     private double salesAmount;
 
@@ -27,13 +27,33 @@ public class SalesEmployee {
     // LAB HINT: Define get- and set- methods for
     //           salesAmount and commissionRate
 
+    public double getSalesAmount() {
+        return salesAmount;
+    }
 
+    public void setSalesAmount(double salesAmount) {
+        this.salesAmount = salesAmount;
+    }
+
+    public double getCommissionRate() {
+        return commissionRate;
+    }
+
+    public void setCommissionRate(double commissionRate) {
+        this.commissionRate = commissionRate;
+    }
     // LAB HINT: Define a constructor which accepts a name and a
     //           employee number, and uses the constructor of Employee
 
-
+    SalesEmployee(String name, int empID) {
+        super(name, empID);
+    }
     // LAB HINT: Override the calcSalary method and
     //           calculate the salary based on sales
 
 
+    @Override
+    public double calcSalary() {
+        return getSalesAmount()*(getCommissionRate()/100);
+    }
 }

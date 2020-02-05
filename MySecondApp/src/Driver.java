@@ -15,5 +15,10 @@ public class Driver {
 
         Employee david = new Employee("David Jones", 170000,"Java");
         System.out.println(david.getName() + " makes $" + david.getSalary() + " and likes " + david.getLanguage() + " programming language.");
+
+        int five = 5;
+
+        five %= 2;
+        System.out.println(five);
     }
 }

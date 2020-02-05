@@ -21,25 +21,53 @@ package trivera.core.employee;
 
 
 
-public class Employee // LAB HINT: What goes here for sub-classing
+public class Employee extends Person // LAB HINT: What goes here for sub-classing
 {
   // LAB HINT: Add the instance variable
-
+  private int emplID;
 
   // LAB HINT: Add your constructors here
+  public Employee() {
 
+  }
 
+  public Employee(String name) {
+    super(name);
+  }
+
+  public Employee(String name, int emplId) {
+    super(name);
+    setEmplID(emplId);
+  }
   // LAB HINT: Code get and set methods for the instance variable
 
 
   // LAB HINT: Place calcSalary() method here
-
+  public int calcSalary() {
+    return 4+3;
+  }
 
   // LAB HINT: Override toString() and equals() method using parent version
 
+  @Override
+  public String toString() {
+    return super.toString();
+  }
 
+  public int getEmplID() {
+    return emplID;
+  }
 
-    /*public String toString() {
+  public void setEmplID(int emplID) {
+    this.emplID = emplID;
+  }
+
+  @Override
+  public boolean equals(Object obj) {
+    return super.equals(obj);
+  }
+
+  /*public String toString() {
         StringBuffer sb = new StringBuffer(super.toString());
         sb.append(" - empID: ").append(empID);
         return sb.toString();

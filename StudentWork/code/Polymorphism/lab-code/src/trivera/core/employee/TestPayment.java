@@ -20,7 +20,22 @@ package trivera.core.employee;
 
 public class TestPayment {
 
+    public static void PayEveryone(Employee... emps) {
+        double total = 0;
+        for(Employee emp: emps) {
+            total += emp.calcSalary();
+        }
+        System.out.println("Paid a total of $" + total);
+    }
+
     public static void main(String[] args) {
+        Employee el = new Employee("Betty", 101);
+        Employee e2 = new Employee("Willma", 102);
+        HourlyEmployee h1 = new HourlyEmployee("BamBam", 103);
+        h1.setHourRate(10);
+        h1.setHoursWorked(40);
+        PayEveryone(el, e2, h1);
+
         SalesEmployee jennifer = null;
         HourlyEmployee john = null;
 

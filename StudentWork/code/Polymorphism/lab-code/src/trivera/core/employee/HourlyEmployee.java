@@ -18,7 +18,7 @@ package trivera.core.employee;
  */
 
 
-public class HourlyEmployee {
+public class HourlyEmployee extends Employee {
     // Instance fields
     private double hoursWorked;
 
@@ -29,12 +29,33 @@ public class HourlyEmployee {
 
     // LAB HINT: Define constructor that accepts a name and a employee
     //           number, and use the constructor of Employee
-
+    public HourlyEmployee(String name, int empID) {
+        super(name, empID);
+    }
 
     // LAB HINT: Define get- and set- methods for hoursWorked and hourRate
 
+    public double getHoursWorked() {
+        return hoursWorked;
+    }
 
+    public void setHoursWorked(double hoursWorked) {
+        this.hoursWorked = hoursWorked;
+    }
+
+    public double getHourRate() {
+        return hourRate;
+    }
+
+    public void setHourRate(double hourRate) {
+        this.hourRate = hourRate;
+    }
     // LAB HINT: Override the calcSalary method and calculate salary based on
     // LAB HINT: hoursWorked
 
+
+    @Override
+    public double calcSalary() {
+        return this.getHoursWorked()* this.getHourRate();
+    }
 }

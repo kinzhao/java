@@ -57,4 +57,8 @@ public class Employee extends Person {
         return sb.toString();
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }

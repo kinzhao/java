@@ -21,26 +21,45 @@ package trivera.core.employee;
 
 public class Person {
     // LAB HINT: Declare the private instance field called name
-
+  private String name;
 
   // LAB HINT: Don't forget the default constructor
-
 
   public Person(){}
 
   // LAB HINT: Complete constructor which takes a string argument for name
   public Person(String name){
-
+    this.setName(name);
   }
 
 
   // LAB HINT: Override the equals() method
 
+  @Override
+  public boolean equals(Object obj) {
+    if(obj instanceof Person) {
+      Person p = (Person) obj;
+      if(this.name.equals(p.name)) {
+        return true;
+      }
+    }
+    return false;
+  }
 
   // LAB HINT: Override the toString() method
 
+  @Override
+  public String toString() {
+    return super.toString();
+  }
 
   // LAB HINT: Write the get and set methods for the name instance variable
+  public String getName() {
+    return name;
+  }
 
+  public void setName(String name) {
+    this.name = name;
+  }
 
 }

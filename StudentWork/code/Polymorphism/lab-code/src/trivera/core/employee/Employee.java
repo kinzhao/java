@@ -26,9 +26,9 @@ public class Employee extends Person implements Payable{
     public Employee() {
     }
 
-    public Employee(String name, int empID) {
+    public Employee(String name, int empID){
         super(name);
-        this.empID = empID;
+        setEmpID(empID);
     }
 
     public int getEmpID() {
@@ -43,8 +43,11 @@ public class Employee extends Person implements Payable{
         this.manager = manager;
     }
 
-    public void setEmpID(int empID) {
-        this.empID = empID;
+    public void setEmpID(int empID){
+        if(empID > 99 && empID < 1000)
+            this.empID = empID;
+        else
+            throw new IllegalArgumentException("Invalid Employee Id");
     }
 
     public double calcSalary() {

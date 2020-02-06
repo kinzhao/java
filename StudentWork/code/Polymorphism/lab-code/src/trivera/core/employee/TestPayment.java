@@ -35,7 +35,7 @@ public class TestPayment {
         h1.setHourRate(10);
         h1.setHoursWorked(40);
 
-        SalesEmployee s1 = new SalesEmployee("Who Me", 104);
+        SalesEmployee s1 = new SalesEmployee("Who Me", 1044);
         s1.setCommissionRate(10);
         s1.setSalesAmount(4000);
         PayEveryone(el, e2, h1, s1, new Vendor());
